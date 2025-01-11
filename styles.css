@@ -139,10 +139,13 @@ footer {
   display: none;
 
   overflow-y: scroll;
+  transform: translateY(-20rem);
+  transition: transform .5s ease;
 }
 
 .show-result {
   display: block;
+  transform: translateY(0);
 }
 
 footer span {
